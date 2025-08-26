@@ -180,7 +180,7 @@ TARGET_USERIMAGES_SPARSE_F2FS_DISABLED := true
 TARGET_BOARD_PLATFORM := msmnile
 
 # Power
-TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/wake_gesture"
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
