@@ -180,9 +180,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.cepheus \
-    android.hardware.biometrics.fingerprint@2.3.vendor \
-    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
+        android.hardware.biometrics.fingerprint-service.xiaomi \
+        vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
 
 $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/xiaomi:libudfps_extension.xiaomi)
 

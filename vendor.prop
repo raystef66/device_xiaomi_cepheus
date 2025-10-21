@@ -200,9 +200,9 @@ ro.hardware.fp.fod=true
 ro.fastbootd.available=true
 
 # Fingerprint
-persist.vendor.sys.fp.udfps.location.X_Y=455,1920
-persist.vendor.sys.fp.udfps.size.width_height=173,173
-ro.hardware.fp.udfps=true
+persist.vendor.fingerprint.sensor_location=542|2007|87
+persist.vendor.fingerprint.type=udfps_optical
+persist.vendor.fingerprint.udfps.control_illumination=true
 
 # FUSE
 persist.sys.fuse.passthrough.enable=true
