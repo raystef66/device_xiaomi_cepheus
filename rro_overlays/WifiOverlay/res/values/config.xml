@@ -81,4 +81,23 @@
 
     <!-- Default access point SSID used for tethering -->
     <string name="wifi_tether_configure_ssid_default" translatable="false">Xiaomi Mi 9</string>
+
+    <!-- Cepheus does NOT support 6GHz SoftAP -->
+    <bool name="config_wifiSoftap6ghzSupported">false</bool>
+
+    <!-- Disable ACS for SoftAP -->
+    <bool name="config_wifiSoftapAcsSupported">false</bool>
+
+    <!-- Wi-Fi hotspot (SoftAP) on two different bands simultaneously -->
+    <bool name="config_wifi_dual_sap_mode_enabled">true</bool>
+
+     <!-- Malformed channel value -->
+	<string-array translatable="false" name="config_wifi_softap_id_2g_frequencies">
+    <item>2412</item>
+    <item>2437</item>
+    <item>2462</item>
+    </string-array>
+
+</resources>
+
 </resources>

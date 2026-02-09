@@ -1088,4 +1088,10 @@
     <!-- Default value for performant auth feature. -->
     <bool name="config_performantAuthDefault">true</bool>
 
+<!-- Force SoftAP band 2.4GHz -->
+    <integer name="config_wifiSoftapDefaultBand">0</integer>
+
+    <!-- Force channel (no ACS) -->
+    <integer name="config_wifiSoftapDefaultChannel">6</integer>
+
 </resources>
