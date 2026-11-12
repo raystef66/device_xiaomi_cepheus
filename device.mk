@@ -408,6 +408,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libqti-perfd-client
 
+# Thermal HAL (read-only bring-up; SKIN/headroom calibration still required)
+PRODUCT_PACKAGES += \
+    android.hardware.thermal-service.cepheus
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr
@@ -502,6 +506,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client \
     hardware/xiaomi \
+    hardware/qcom/thermal \
 
 # Task Profiles
 PRODUCT_COPY_FILES += \

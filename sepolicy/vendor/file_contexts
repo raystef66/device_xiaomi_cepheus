@@ -59,3 +59,6 @@
 /sys/class/thermal                                                                                     u:object_r:sysfs_thermal:s0
 /vendor/bin/mi_thermald                                                                                u:object_r:mi_thermald_exec:s0
 /data/vendor/thermal(/.*)?                                                                             u:object_r:thermal_data_file:s0
+
+# AIDL read-only thermal HAL
+/vendor/bin/hw/android\.hardware\.thermal-service\.cepheus    u:object_r:hal_thermal_default_exec:s0
